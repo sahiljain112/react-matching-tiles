@@ -1,0 +1,27 @@
+
+html, body, #root {
+  height: 100%;
+  font-size: 10px;
+  overflow: auto;
+}
+
+
+.tile-container {
+  width: 70rem;
+  margin: 5rem auto;
+  height: 70rem;
+  padding: 2rem;
+  background-color: dimgrey;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  overflow: auto;
+}
+
+.tile {
+  height: 15rem;
+  width: 15rem;
+  background-color: blue;
+  margin: 1rem;
+}
