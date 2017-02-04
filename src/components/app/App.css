@@ -3,6 +3,7 @@ html, body, #root {
   height: 100%;
   font-size: 10px;
   overflow: auto;
+  background-color: brown;
 }
 
 
@@ -11,7 +12,7 @@ html, body, #root {
   margin: 5rem auto;
   height: 70rem;
   padding: 2rem;
-  background-color: dimgrey;
+  background-color: white;
   display: flex;
   align-items: center;
   flex-flow: row wrap;
@@ -22,6 +23,13 @@ html, body, #root {
 .tile {
   height: 15rem;
   width: 15rem;
-  background-color: blue;
+  background-color: brown;
   margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 5rem;
+  text-shadow: 0.2rem 0.2rem 0.2rem black;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
 }

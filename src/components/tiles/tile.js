@@ -1,10 +1,11 @@
 import React from 'react'
 
  const Tile = (props) => {
-  const tileValue = props.showTileValue ? props.tileValue : ''
+   const { showTileValue, tileValue} = props
+   const tileDisplay = showTileValue ? tileValue : ''
   return(
-    <div className="tile">
-      {tileValue}
+    <div className="tile" data-value={tileValue}>
+      { tileDisplay }
     </div>
   )
 }
